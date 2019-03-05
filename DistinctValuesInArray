@@ -1,0 +1,11 @@
+/*
+
+Given an array A consisting of N integers, returns the number of distinct values in array A.
+
+*/
+
+
+public func solution(inout A : [Int]) -> Int {
+	    // write your code in Swift 2.2
+	    return Set(A).count
+}
